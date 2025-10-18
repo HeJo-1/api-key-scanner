@@ -69,6 +69,11 @@ A safe way to test the scanner is to host the `test/test.html` locally and scan 
 2. Start a simple HTTP server (from repo root):
 ```bash
 python3 -m http.server 8080
+
+or
+
+cd test
+go run server.go
 ```
 
 3. Run the scanner against the local test page:
